@@ -77,6 +77,11 @@
 
 	        if(that.game.move(fromTower, toTower)) {
 	          that.setupTowers();
+	          if (that.game.isWon()){
+	            $('body').off();
+	            $('.won').show();
+	            that.el.addClass('game-over');
+	          }
 	        } else {
 	          alert('Invalid move!');
 	        }

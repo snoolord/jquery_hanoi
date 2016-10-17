@@ -46,6 +46,12 @@ ul:hover {
 .disc-2 {
   width: 66%;
 }
-.disc-3 {
 
+.won {
+  display: none;
+
+}
+
+.game-over .disc-1, .game-over .disc-2, .game-over .disc-3 {
+  background-color: green;
 }
