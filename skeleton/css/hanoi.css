@@ -1,0 +1,51 @@
+* {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.hanoi {
+  width: 540px;
+  margin: auto;
+}
+
+ul {
+  width: 120px;
+  height: 160px;
+  border-bottom: 8px solid black;
+  list-style: none;
+  float: left;
+  margin-right: 10px;
+  margin-left: 10px;
+  cursor: move;
+  padding: 0 20px;
+}
+li {
+  height: 40px;
+  margin-bottom: 10px;
+
+}
+
+ul.select-from {
+  border-bottom-color: red !important;
+}
+
+ul:hover {
+  border-bottom-color: blue;
+}
+
+.disc-1, .disc-2, .disc-3 {
+  background-color: grey;
+  border-radius: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.disc-1 {
+  width: 33%
+}
+.disc-2 {
+  width: 66%;
+}
+.disc-3 {
+
+}
